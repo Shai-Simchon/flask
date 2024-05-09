@@ -2,9 +2,9 @@ from flask import Flask, redirect, url_for, request, render_template
 import requests
 app = Flask(__name__)
 
-#Bot name = @shai444bot
-TOKEN = "7146877031:AAF16FIQN3oaGjcYDS4Q7kecGJ0d8XUzUz0"
-chat_id = "529919876"
+#Bot name = @XXXX
+TOKEN = "XXXX"
+chat_id = "XXXX"
 
 @app.route('/')
 def homepage():
